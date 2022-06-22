@@ -1,0 +1,355 @@
+a{
+  text-decoration: none; 
+}
+/* .dropdown{
+  border-right: 1px solid gray;
+} */
+li{
+  text-decoration: none !important;
+}
+.button{
+  background-color: rgb(16, 16, 122);
+  color: white;
+  width: 100px;
+}
+.navbar{
+  border-bottom: 1px solid gray;
+  box-shadow: 2px 2px lightgray;
+}
+.button1{
+  margin-right: 30px;
+  width: 150px;
+  color: rgb(16, 16, 122);
+  background-color: white;
+  border: lightgray 1px solid;
+}
+.table_button{
+  color: #fff;
+  background-color: rgb(226, 131, 43);
+  border: none;
+  padding: 4px;
+  margin-left: 10px;
+  text-align: center;
+}
+.red_button{
+  color: #fff;
+  background-color: rgb(201, 68, 68);
+  border: none;
+  /* padding: 6px; */
+  margin-left: 10px;
+  text-align: center;
+  height: 30px;
+}
+.span_color{
+  color: rgb(243, 170, 35);
+}
+.inprocess{
+  border: 1px rgb(38, 216, 107) solid;
+  color: rgb(38, 216, 107); 
+  background-color: white;
+  margin-left: 40px;
+}
+/* td{
+  border: 1px solid lightgray;
+} */
+.green_button{
+  color: #fff;
+  background-color: rgb(68, 201, 97);
+  border: none;
+  /* margin-left: 10px; */
+  height: 40px;
+  text-align: center;
+}
+.change_button{
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid skyblue;
+  background-color:rgb(78, 184, 219);
+  margin-left: 5px;
+}
+.dollar{
+  background-color: rgb(185, 192, 90);
+  color: #fff;
+  height: 30px;
+  padding: 3px;
+  border: 1px solid olive;
+  margin-left: 20px;
+}
+/* .menu{
+  background-color:rgb(235, 230, 230);
+} */
+#dropdownMenuLink{
+  margin-bottom: 0px;
+}
+/* .cardrow{
+  margin-bottom: 30px;
+} */
+.menucard{
+  text-align: center;
+}
+.card_paragraph{
+  margin-bottom: 0px;
+}
+.menu_items{
+  border: 1px solid lightblue;
+}
+.cancel{
+  background-color: rgb(236, 142, 142);
+  height: 40px;
+  padding:10px 18px;
+  /*position:absolute;*/
+  /*left: 185px;*/
+  /*top: 380px;*/
+}
+/*.cancel1{*/
+/*    background-color: rgb(236, 142, 142);*/
+/*    height: 40px;*/
+/*    padding:10px 18px;*/
+/*    position:absolute;*/
+/*    left: 185px;*/
+/*    top: 563px;*/
+/*}*/
+.add_button{
+  background-color: blanchedalmond;
+  color: #000;
+  border: 1px solid orange;
+  padding: 3px;
+}
+.credit{
+  border: 1px solid;
+}
+.card_button{
+  color:white;
+  background-color: rgb(247, 135, 94);
+  border-radius: 20px;
+  border: 1px solid rgb(247, 135, 94);
+  width: 150px;
+}
+
+.kotprint{
+  display:flex;
+  justify-content:end !important;
+}
+
+.kotprint1{
+  display:flex;
+  justify-content:end !important;
+}
+.dashboard_card{
+  margin-top:15px;
+}
+.split{
+  display:flex;
+  justify-content:end;
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .logo{
+      width: 50px !important;
+  }
+    .logo1{
+      width: 70px !important;
+  }
+  #title{
+      /*font-size: 25px !important;*/
+       display: none !important; 
+  }
+  .nav_image{
+      display: none !important;
+
+  }
+  .notification{
+      display: none !important;
+
+  }
+  .requestbill{
+      width:100%;
+  }
+  .dropdown{
+      border-right:none !important;
+  }
+  .button1{
+      width:100%;
+      margin:0px;
+  }
+  
+  .dinein_lable{
+      width:82% !important;
+  }
+ 
+ .tableno{
+  position:absolute;
+  top:42px;
+  left:256px;
+  margin-top:10px;
+  
+ }
+ .print{
+  margin-top:10px;
+  margin-left:0px;
+ }
+ 
+ .kotprint{
+  display:flex;
+  justify-content:start !important;
+}
+.menu_items{
+  width: 100% !important;
+}
+.image2{
+  height:100% !important;
+  margin-top:-410px !important;
+}
+.dashboard_card{
+  width: 200px !important;
+  margin-left: 60px;
+}
+#todate{
+  width:50% !important;
+  margin-bottom:10px;
+  padding: 6px;
+  margin-right: 23px;
+}
+.dashboard_logo{
+  position: absolute;
+  top: 220px !important;
+  left: 143px;
+}
+
+.dashboard_logoimg{
+  width: 60px !important;
+  border-radius: 30px !important;
+  }
+.dashboard_title{
+  position:absolute;
+  top:282px;
+  left:96px !important;
+}
+.dashboard_logout{
+  position:absolute;
+  top:30px;
+  left:63px ! important;
+
+}
+.split{
+  display:flex;
+  justify-content:start;
+  
+}
+.green_button{
+  width:100%;
+}
+.table-name{
+  width:245px !important;
+}
+.change_button{
+  width:200px !important;
+  margin-top:20px;
+}
+.cardimage{
+margin-left:40px;
+  width:60% !important;
+}
+.loginform{
+  margin-top:0px !important;
+}
+
+/*.cancel {*/
+/*    background-color: rgb(236, 142, 142);*/
+/*    height: 40px;*/
+/*    padding: 10px 18px;*/
+/*    position: absolute;*/
+/*    left: 100px;*/
+/*    top: 150%;*/
+/*}*/
+/*.cancel1 {*/
+/*    background-color: rgb(236, 142, 142);*/
+/*    height: 40px;*/
+/*    padding: 10px 18px;*/
+/*    position: absolute;*/
+/*    left: 100px;*/
+/*    top: 213%;*/
+/*}*/
+.refno{
+  margin-top: 30px;
+}
+.sale{
+  width: 20rem !important;
+}
+.menu1{
+  margin-top: 30px;
+}
+.receipt{
+  width: 100% !important;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .dinein_lable{
+      width:62% !important;
+  }
+ 
+  .nav_image{
+      display: none !important;
+
+  }
+  .notification{
+      display: none !important;
+
+  }
+  .dropdown{
+      border-right:none !important;
+      
+  }
+  
+  .image{
+      height:100vh !important;
+  }
+.loginform{
+  margin-top:85px !important;
+}
+
+  #todate{
+      width:39% !important;
+      margin-right: -60px;
+      
+  }
+  .billing{
+      width:44%!important;
+  }
+  .report{
+      width:44% !important;
+  }
+  .takeaway{
+        width:50% !important;
+  }
+  .door{
+      width: 55% !important;
+
+  }
+  .order{
+      width:39%!important;
+  }
+  /*.cancel {*/
+      
+  /*    position: absolute;*/
+  /*    left: 100px;*/
+  /*    top: 310px !important;*/
+  /*}*/
+  /*.cancel1 {*/
+     
+  /*    position: absolute;*/
+  /*    left: 100px;*/
+  /*    top: 490px !important;*/
+  /*}*/
+  .receipt{
+      width: 50% !important;
+  }
+}
+
+.form-control:focus,.form-select:focus{
+  /* border:none !important; */
+  box-shadow: none !important;
+}

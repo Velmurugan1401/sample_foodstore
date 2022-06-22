@@ -1,0 +1,12 @@
+.cardshadow
+{
+    box-shadow: 3px 4px #d3d3d3;
+    height: 150px;
+}
+.cardshadow img{
+    width:40px;
+
+}
+.cardshadow .card-title{
+    text-align: center;
+}
