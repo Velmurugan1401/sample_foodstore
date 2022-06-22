@@ -11,6 +11,8 @@ import Kitchen from "./componets/kitchen"
 import Header from "./componets/header"
 import Menu from "./componets/menulist"
 import Billing from "./componets/billing"
+import Order from "./componets/order"
+import Report from "./componets/report"
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/dashboard/kitchen" element={<><Header/><Kitchen /></>} />
         <Route path="/dashboard/menu" element={<><Header/><Menu/></>} />
         <Route path="/billing" element={<><Header/><Billing/></>} />
+        <Route path="/dashboard/Order" element={<><Header/><Order/></>} />
+        <Route path="/dashboard/report" element={<><Header/><Report/></>} />
       </Routes>
     </div>
   );
